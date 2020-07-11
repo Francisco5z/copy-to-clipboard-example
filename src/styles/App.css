@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App button {
+  width: 80%;
+  margin: 10px auto 0 auto;
+}
+
+.App input {
+  height: 35px;
+  font-size: 20px;
+
+  outline: none;
+}
+
+.App input:focus {
+  border: 1px solid #04d261;
+  border-radius: 4px;
+}
